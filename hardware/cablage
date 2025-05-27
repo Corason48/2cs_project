@@ -1,0 +1,19 @@
+MFRC522	NodeMCU (ESP8266)
+SDA	D4 (GPIO2)
+SCK	D5 (GPIO14)
+MOSI	D7 (GPIO13)
+MISO	D6 (GPIO12)
+RST	D3 (GPIO0)
+GND	GND
+3.3V	3.3V 
+and this for fingerprint
+TX	D1 (SoftwareSerial RX)
+RX	D2 (SoftwareSerial TX)
+VCC	3.3V (or 5V if sensor requires it)
+GND	GND
+i want to add and lcd give how tp implemet the wires
+
+GND	GND
+VCC	3.3V or 5V (depends on I2C module)
+SDA	D8 (GPIO15)
+SCL	D0 (GPIO16)
